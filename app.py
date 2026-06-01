@@ -1,7 +1,7 @@
 import streamlit as st
 import requests
 
-be_url="http://127.0.0.1:8000"
+be_url=st.secrets["be_url_server"]
 
 st.set_page_config(
     page_title="AI Content Generator",
